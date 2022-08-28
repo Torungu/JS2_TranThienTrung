@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- BÀI TẬP 1 -->
+    <div class="card">
+        <div class="card-header text-primary">
+            TÍNH LƯƠNG NHÂN VIÊN
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+              <label for="">Số ngày làm việc</label>
+              <input type="number"
+                class="form-control" name="" id="soNgaylam" aria-describedby="helpId" placeholder="Nhập số ngày đã làm">
+            </div>
+            <p class="card-text">Lương 1 ngày là 100,000</p>
+            <button id="tinh" class="btn btn-success">Tính</button>
+        </div>
+        <div id="salary"class="card-footer text-danger">
+        </div>
+    </div>
+    <br>
+    <!-- BÀI TẬP 2 -->
+    <div class="card">
+        <div class="card-header text-primary">
+            TÍNH GIÁ TRỊ TRUNG BÌNH CỦA 5 SỐ
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+              <label for="">Số thứ nhất</label>
+              <input type="number"
+                class="form-control" name="" id="num1" aria-describedby="helpId" placeholder="Nhập số thứ nhất">
+                <label for="">Số thứ hai</label>
+              <input type="number"
+                class="form-control" name="" id="num2" aria-describedby="helpId" placeholder="Nhập số thứ hai">
+                <label for="">Số thứ ba</label>
+              <input type="number"
+                class="form-control" name="" id="num3" aria-describedby="helpId" placeholder="Nhập số thứ ba">
+                <label for="">Số thứ tư</label>
+              <input type="number"
+                class="form-control" name="" id="num4" aria-describedby="helpId" placeholder="Nhập số thứ tư">
+                <label for="">Số thứ năm</label>
+              <input type="number"
+                class="form-control" name="" id="num5" aria-describedby="helpId" placeholder="Nhập số thứ năm">
+            </div>
+            <button id="trungBinh" class="btn btn-success">Tính giá trị trung bình</button>
+        </div>
+        <div id="avg"class="card-footer text-danger">
+        </div>
+    </div>
+    <br>
+    <!-- BÀI TẬP 3 -->
+    <div class="card">
+        <div class="card-header text-primary">
+            QUY ĐỔI TIỀN
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+              <label for="">Số tiền USD muốn dổi</label>
+              <input type="number"number
+                class="form-control" name="" id="USD" aria-describedby="helpId" placeholder="Nhập số USD">
+            </div>
+            <p class="card-text">1 USD = 23,500 VNĐ </p>
+            <button id="exchange" class="btn btn-success">Quy đổi</button>
+        </div>
+        <div id="VND"class="card-footer text-danger">
+        </div>
+    </div>
+    <br>
+    <!-- BÀI TẬP 4 -->
+    <div class="card">
+        <div class="card-header text-primary">
+           TÍNH CHU VI VÀ DIỆN TÍCH HÌNH CHỮ NHẬT
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+              <label for="">Chiều dài</label>
+              <input type="number"
+                class="form-control" name="" id="chieuDai" aria-describedby="helpId" placeholder="Nhập chiều dài">
+                <label for="">Chiều rộng</label>
+              <input type="number"
+                class="form-control" name="" id="chieuRong" aria-describedby="helpId" placeholder="Nhập chiều rộng">
+            </div>
+            <button id="result" class="btn btn-success">Kết quả</button>
+        </div>
+        <div id="cV_dT"class="card-footer text-danger">
+        </div>
+    </div>
+    <br>
+    <!-- BÀI TẬP 5 -->
+    <div class="card">
+        <div class="card-header text-primary">
+           TÍNH TỔNG 2 CHỮ SỐ CỦA SỐ N
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+              <label for="">Số N có 2 chữ số</label>
+              <input type="number"
+                class="form-control" name="" id="soN" aria-describedby="helpId" placeholder="Nhập số có 2 chữ số">
+            </div>
+            <button id="tong" class="btn btn-success">Kết quả</button>
+        </div>
+        <div id="outPut"class="card-footer text-danger">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./baitap.js"></script>
+  </body>
+</html>
